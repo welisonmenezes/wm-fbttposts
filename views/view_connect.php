@@ -40,7 +40,7 @@
 
 	if($fb_can===true && $tt_can===true)
 	{
-		echo '<div class="wm-alert">Você está conectado!</div>';
+		echo '<div class="wm-alert">'.__('Você está conectado!').'</div>';
 	}
 	?>
 </div>

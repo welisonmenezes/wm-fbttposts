@@ -146,7 +146,7 @@ if(!empty($pt) && $pt!=false)
 							<fieldset>
 								<label>
 									<input type="radio" name="wm-optContent" value="default" <?php echo FBTTPostsUtil::fbttposts_set_checked('default',get_option('wm-optContent')); ?>>
-									<span><?php echo __('Title do post'); ?></span> 
+									<span><?php echo __('Titulo do post'); ?></span> 
 								</label>
 								<br>
 								<label>

@@ -57,7 +57,7 @@ else
 			{ 
 			?>
 			<p>
-				<label class="">Digite o status a ser compartilhado:</label>
+				<label class=""><?php echo __('Digite o status a ser compartilhado'); ?>:</label>
 				<textarea rows="1" cols="40" name="wm-fbttposts-status" id="wm-status"><?php echo get_post_meta($p_id, 'wm-fbttposts-status', true); ?></textarea>
 				<input type="hidden" id="wm-ajax-thumb" name="wm-fbttposts-json" value='<?php echo get_post_meta($p_id, 'wm-fbttposts-json', true); ?>'>
 			</p>
@@ -78,7 +78,7 @@ else
 						}
 					?>
 				</span>
-				<label class="">Selecione a imagem a ser compartilhada:</label>
+				<label class=""><?php echo __('Selecione a imagem a ser compartilhada'); ?>:</label>
 				<input type="text"  name="wm-fbttposts-image" disabled="disabled" value="<?php echo $wm_image; ?>" size="40" />
 				<input type="button" class="onetarek-upload-button button" value="Upload Image" />
 			</p>
